@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: dev-container
-        image: <todo>
+        image: us-central1-docker.pkg.dev/qwiklabs-gcp-02-f74ee3e1a253/my-repository/sample-app:v1.0
         ports:
         - containerPort: 8080
